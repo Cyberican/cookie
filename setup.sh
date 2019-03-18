@@ -10,7 +10,7 @@ do
 	chmod 755 $f
 done
 
-if [ -d ".cookiecutter" ];
+if [ -d ".cookiecutters" ];
 then
-	cp -a -v .cookiecutter /root/.cookiecutter
+	cp -a -v .cookiecutters /root
 fi
